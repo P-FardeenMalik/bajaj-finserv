@@ -149,7 +149,6 @@ public class WebhookService {
             currentLevel = nextLevel;
         }
         
-        
         List<Integer> result = new ArrayList<>(currentLevel);
         Collections.sort(result);
         
